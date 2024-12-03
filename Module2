@@ -1,0 +1,148 @@
+*Functional Requirements:
+    Functional requirements define what the system should do.
+They describe the specific behaviors, functions, and features that the software must perform to meet user needs.
+Examples: User authentication, data validation, report generation, and search functionality.
+
+*Non-Functional Requirements:
+    Non-functional requirements define how the system should perform.
+They focus on the quality attributes and operational aspects of the system, such as performance, security, and usability.
+Examples: Performance (e.g., response times), security (e.g., data encryption), usability (e.g., intuitive interface), reliability (e.g., uptime), and scalability (e.g., handling increased users).
+
+**Key Differences:
+    >Nature: Functional requirements are task-specific, 
+        while non-functional requirements focus on qualities and performance.
+    >Measurability: Functional requirements are easier to measure due to their specificity,
+        whereas non-functional requirements involve more subjective qualities.
+
+
+*Software Requirements Specification Document:
+    A Software Requirements Specification Document(SRSD) document outlines the functionalities and constraints
+of a software system. It serves as a formal agreement between stakeholders, providing a comprehensive description of what the software will do and how it will perform.
+
+**Key Sections of an SRS:
+1. Introduction
+    Purpose: Describe the purpose of the SRS document and its intended audience.
+
+    Scope: Define the scope of the software product, including its objectives and benefits.
+
+    Definitions, Acronyms, and Abbreviations: Provide definitions of terms, acronyms, and abbreviations used in the document.
+
+    References: List reference documents or related materials.
+
+2. Overall Description
+    Product Perspective: Describe the context and high-level overview of the software product.
+
+    Product Features: Summarize the main features of the software.
+
+    User Classes and Characteristics: Define different types of users and their characteristics.
+
+    Operating Environment: Specify hardware, software, and environmental factors.
+
+    Design and Implementation Constraints: List constraints that may affect the design and implementation.
+
+    Assumptions and Dependencies: Mention any assumptions and dependencies that the project relies on.
+
+3. Functional Requirements
+    Use Case Descriptions: Detailed use cases describing specific interactions between users and the system.
+
+    Functional Requirements Specification: Detailed list of functions the software must perform.
+    
+    Example:
+
+        User Authentication: The system shall allow users to log in using a username and password.
+
+        Data Validation: The system shall validate user inputs according to defined rules.
+
+4. Non-Functional Requirements
+    Performance Requirements: Describe performance criteria such as response times.
+
+    Security Requirements: Define security measures to protect the system and data.
+
+    Usability Requirements: Describe the usability standards for the system.
+
+    Reliability Requirements: Specify the reliability and availability requirements.
+
+    Scalability Requirements: Define the scalability aspects of the system.
+
+5. System Models
+    Data Flow Diagrams: Visual representation of data flow within the system.
+
+    Use Case Diagrams: Visual representation of use cases and actors.
+
+    Entity-Relationship Diagrams: Diagrams showing data relationships.
+
+6. Glossary
+    List of terms and definitions used in the document.
+
+
+*Requirement Engineering Process:
+    The requirements engineering process involves a systematic approach to identifying, documenting,
+and managing the requirements of a software system. This process ensures that all stakeholders have a clear understanding of what the system should do and how it should perform. Here's an overview of the key steps in the requirements engineering process:
+
+1. Requirements Elicitation
+    Goal: Gather requirements from stakeholders, including customers, users, and other stakeholders.
+
+    Techniques:
+
+        Interviews: Conduct one-on-one or group interviews to understand stakeholder needs.
+
+        Surveys and Questionnaires: Use structured forms to collect information from a large audience.
+
+        Workshops: Facilitate collaborative sessions to gather and refine requirements.
+
+        Observation: Observe users in their environment to understand their workflows and needs.
+
+        Document Analysis: Review existing documentation to extract relevant information.
+
+2. Requirements Analysis
+    Goal: Analyze and refine the gathered requirements to ensure they are clear, complete, consistent, and feasible.
+
+    Activities:
+
+        Prioritization: Determine the importance of each requirement.
+
+        Conflict Resolution: Address and resolve any conflicting requirements.
+
+        Feasibility Analysis: Assess the feasibility of the requirements in terms of technical, economic, and legal constraints.
+
+        Modeling: Create models (e.g., use case diagrams, data flow diagrams) to visualize and analyze requirements.
+
+3. Requirements Specification
+    Goal: Document the requirements in a structured format that is clear and understandable to all stakeholders.
+
+    Outputs:
+
+        Software Requirements Specification (SRS): A comprehensive document detailing the functional and non-functional requirements.
+
+        User Stories: Short descriptions of features from the perspective of end-users (commonly used in agile development).
+
+        Use Cases: Detailed descriptions of user interactions with the system.
+
+4. Requirements Validation
+    Goal: Ensure that the documented requirements accurately represent stakeholder needs and are complete, consistent, and feasible.
+
+    Techniques:
+
+        Reviews and Inspections: Conduct formal reviews and inspections of the requirements document.
+
+        Prototyping: Develop prototypes to validate and refine requirements.
+
+        Test Cases: Create test cases based on requirements to ensure they are testable.
+
+        Stakeholder Feedback: Gather feedback from stakeholders to verify the requirements.
+
+5. Requirements Management
+    Goal: Manage changes to the requirements throughout the project lifecycle.
+
+    Activities:
+
+        Change Control: Implement a process for handling changes to requirements.
+
+        Version Control: Maintain version control of requirements documents.
+
+        Traceability: Establish traceability links between requirements and other project artifacts (e.g., design documents, test cases).
+
+        Monitoring and Reporting: Track the status of requirements and report on their progress.
+
+**Summary
+The requirements engineering process is critical for the successful development of software systems. It ensures that the final product meets the needs and expectations of stakeholders, and it helps to minimize risks associated with incomplete or misunderstood requirements. By following these steps, you can effectively gather, analyze, document, validate, and manage requirements throughout the software development lifecycle.
